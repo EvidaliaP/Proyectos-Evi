@@ -1,0 +1,14 @@
+
+.lista{
+  height: 600px;
+  overflow-y: auto;
+}
+.x{
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 1px, 1px, grey;
+  font-style: italic;
+  font-size: 16px;
+  border-radius: 1px;
+}
+

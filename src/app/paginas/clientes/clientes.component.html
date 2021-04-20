@@ -1,0 +1,12 @@
+<div class="container lista">
+  <h3>Mis clientes</h3>
+  <div class="card"  *ngFor="let item of clientes" class="col-md-8" >
+    <div class="card-body">
+      <p class="card-text x">Id:{{item.id}}</p>
+      <p class="card-text x">Nombre Completo: {{item.nombre}}  {{ item.apellido}}</p>
+      <p class="card-text x">Correo: {{ item.email}}</p>
+      <p class="card-text x"> Genero: {{item.genero}}</p>
+      <p class="card-text x">Telefono: {{item.telefono}}</p>
+    </div>
+  </div>
+</div>
